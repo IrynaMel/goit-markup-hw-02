@@ -1,0 +1,130 @@
+:root {
+    --main-text-color: #212121;
+    --logo-tex-color: #2196F3;
+    --header-color: #FFFFFF;
+    --line-text-color: #757575;
+
+} 
+body{
+    background-color: white;
+    color: var(--line-text-color);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.03;}
+
+
+.li {list-style-type: none;
+    text-decoration: none;}
+
+
+
+.logo {
+    color: var(--main-text-color);
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.logo-part{
+    color: var(--logo-tex-color);
+}
+.nav-itam {
+    color: var(--main-text-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02px;
+}
+.nav-itam:hover,
+.nav-itam:focus {
+    color: var(--logo-tex-color);
+}
+.contacts {
+    color: var(--line-text-color); 
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--logo-tex-color);
+}
+.header { color: var(--header-color);
+    background-color: black;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;}
+.main-button{
+    color: var(--header-color);
+    background-color: var(--logo-tex-color);
+    cursor: pointer;
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+}
+.main-button:focus,
+.main-button:focus{
+    background-color: #188CE8;
+}
+.advant-head {
+    color: var(--main-text-color);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;  
+}
+.advant-text {
+    font-size: 14px;
+    line-height: 1.7;
+    
+}
+.heads {
+    color: var(--main-text-color);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    
+}
+.itams-head{
+    color: var(--main-text-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    
+}
+.address{
+    color: var(--header-color);
+    font-size: 14px;
+    line-height: 1.7;
+    
+}
+
+/* portfolio*/
+.button{
+    color: var(--main-text-color);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+   
+}
+.button:hover,
+.button:focus{
+    color: var(--header-color);
+    background-color: var(--logo-tex-color);
+}
+.itam-text{
+    color: var(--line-text-color) ;
+}
